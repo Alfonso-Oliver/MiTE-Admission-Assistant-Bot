@@ -1,0 +1,214 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "Hello", "Hey", "Is anyone there?", "Hola", "Good day"],
+      "responses": ["Hello! How can I assist you regarding MiTE University admissions?"],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Thanks, bye", "See ya"],
+      "responses": ["Goodbye! Feel free to come back with more questions."],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for helping me"],
+      "responses": ["You're welcome!", "Happy to help."],
+      "context": [""]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": ["What is the admission process?", "How do I get admitted?", "Admission procedure?"],
+      "responses": [
+        "The admission process includes eligibility check, entry test, interview, academic evaluation, document submission, and fee payment. Once done, you'll receive a confirmation email and be invited for orientation."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": ["Who is eligible for admission?", "Eligibility criteria?", "What marks do I need?"],
+      "responses": [
+        "For local programs, you need at least 50% marks in Intermediate. O-Level students require 8 passes and 3 A-Level subjects."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "programs",
+      "patterns": ["What programs do you offer?", "Courses offered?", "Available degrees?"],
+      "responses": [
+        "We offer BBA, BSCS, ADP in Business Administration, BS Fashion Design, ADP in Supply Management, and ADP in Airline Travel Management."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "program_duration",
+      "patterns": ["How long is BBA?", "What is the duration of BSCS?", "How many years is the ADP program?", "Course duration?"],
+      "responses": [
+        "BBA, BSCS, and BS Fashion Design are 4-year programs. ADP in Business Administration, Supply Management, and Airline Travel Management are 2-year programs."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "language_medium",
+      "patterns": ["What is the language of instruction?", "Do you teach in English?", "Medium of classes?"],
+      "responses": [
+        "The medium of instruction is both English and Urdu depending on the program and course content."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What is the fee structure?", "How much does it cost?", "Fees per semester?"],
+      "responses": [
+        "Admission fee: PKR 30,000; Security: PKR 20,000; Entry Test: PKR 1,500; Tuition: PKR 11,500 per credit hour. Scholarships up to 40% available."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": ["Do you offer scholarships?", "Is financial aid available?", "Any discounts?"],
+      "responses": [
+        "Yes, we offer scholarships up to 40% based on merit, talent, or financial need."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "entry_test",
+      "patterns": ["What is on the entry test?", "Subjects in entry test?", "Do I have to give a test?"],
+      "responses": [
+        "Yes, the entry test covers English, General Math, and Essay Writing. It counts for 50% of your admission evaluation."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "evaluation_criteria",
+      "patterns": ["How is the admission evaluated?", "What are the weightages?", "Admission marks distribution?"],
+      "responses": [
+        "The evaluation is based on 50% Entry Test, 10% Interview, and 40% Academic Record."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "documents_required",
+      "patterns": ["What documents do I need?", "Required documents?", "What should I bring?"],
+      "responses": [
+        "You’ll need the student’s CNIC or B-Form, parent’s CNIC, and passport copies (if applicable)."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "campus",
+      "patterns": ["Where is your campus?", "Campus location?", "Where are you located?"],
+      "responses": [
+        "We are located at 10 Sector-47, Cantonment Board, Korangi Creek, Karachi, 75190."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "transport",
+      "patterns": ["Is transport available?", "Do you have a bus service?", "Transportation facilities?"],
+      "responses": [
+        "Yes, we offer transportation services. You can inquire about routes and availability during your admission visit."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "orientation",
+      "patterns": ["Is there an orientation?", "What happens after admission?", "Orientation session?"],
+      "responses": [
+        "Yes, orientation is held before the semester begins to help students understand university policies, facilities, and their programs."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "intake_schedule",
+      "patterns": ["When are admissions open?", "Do you have spring intake?", "What are the intake dates?"],
+      "responses": [
+        "We offer both spring and annual intakes. Admission dates align with the academic calendar. Please contact admissions for current deadlines."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "lab_facilities",
+      "patterns": ["Do you have labs?", "What labs are available?", "Is there a computer lab?"],
+      "responses": [
+        "Yes! We have computer labs, fashion design studios, science labs, and other technical facilities as per the program requirements."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "student_societies",
+      "patterns": ["Any student societies?", "Is there a student council?", "Do you have extracurricular activities?"],
+      "responses": [
+        "Absolutely! We have a Student Council and societies for Sports, Music, Fashion, Media, and more."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "career_support",
+      "patterns": ["Do you help with jobs?", "Is there job placement?", "Internship support?"],
+      "responses": [
+        "Yes, we offer job fairs, internship opportunities, and placement support through our industry linkages and career counseling sessions."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "career_counseling",
+      "patterns": ["Can I get career counseling?", "Any guidance for choosing a program?", "Do you offer advice before applying?"],
+      "responses": [
+        "Yes, you can get counseling before and during your studies from the admission office, senior professors, and HODs. We also conduct sessions for career planning and program guidance."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "university_timing",
+      "patterns": ["What are your university hours?", "What time does the university open?", "Timings?"],
+      "responses": [
+        "University hours are from 9:00 AM to 5:00 PM, Monday to Saturday."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "short_courses_campaigns",
+      "patterns": ["Do you have short courses?", "Any skill campaigns or training?", "Student experiences?"],
+      "responses": [
+        "Yes, we regularly organize campaigns, workshops, and short courses to give students exposure to new experiences and skill-building opportunities."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "application_online",
+      "patterns": ["Can I apply online?", "Where to apply?", "Do you accept online applications?"],
+      "responses": [
+        "Yes, you can apply online at our official website: https://mite.edu.pk/"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "admission_confirmation",
+      "patterns": ["When will I get confirmation?", "How long does admission take?", "How many days to confirm?"],
+      "responses": [
+        "After submitting your application and paying the fee, confirmation usually takes 2–3 working days."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How do I contact you?", "Phone number?", "Who can I talk to?"],
+      "responses": [
+        "You can reach us at 03268080222 for any admission-related inquiries."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't understand that. Could you rephrase or ask something about admissions, programs, or facilities?"
+      ],
+      "context": [""]
+    }
+  ]
+}
